@@ -265,6 +265,25 @@ export default function ContactSection() {
                 )}
               </button>
 
+              <a
+                href="http://pf.kakao.com/_xcQnxon/chat"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full bg-[#FEE500] text-[#191600] px-8 py-4 rounded-lg font-semibold text-lg
+                           hover:bg-[#FADA0A] transition-all duration-300 shadow-lg hover:shadow-xl
+                           transform hover:-translate-y-0.5 flex items-center justify-center gap-2"
+              >
+                <svg
+                  className="w-5 h-5"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M12 3C6.48 3 2 6.58 2 11c0 2.83 1.83 5.32 4.6 6.77-.2.71-.73 2.62-.83 3.03-.13.5.18.49.39.36.16-.1 2.55-1.74 3.58-2.44.74.11 1.5.18 2.26.18 5.52 0 10-3.58 10-8s-4.48-8-10-8z" />
+                </svg>
+                카카오톡으로 상담하기
+              </a>
+
               <p className="text-xs text-secondary-500 text-center">
                 제출하신 정보는 상담 목적으로만 사용됩니다.
               </p>
