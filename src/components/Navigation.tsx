@@ -69,7 +69,7 @@ export default function Navigation() {
             <img
               src="/images/효시스템_로고_가로형_1-removebg-preview.png"
               alt="효시스템"
-              className="h-10 w-auto"
+              className="h-12 w-auto"
             />
           </button>
 
